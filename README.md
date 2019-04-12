@@ -9,12 +9,14 @@ Quickly checkout a pull request for the current repository.
 
 ## Setup
 
-Clone this repo somewhere, then link the shell script into your `PATH`.
-Assuming `~/bin` is in your `PATH`, you could do this:
+1. Install [jq](https://stedolan.github.io/jq/)
 
-```bash
-ln -s /path/to/repo/gcopr.sh ~/bin/gcopr
-```
+1. Clone this repo somewhere, then link the shell script into your `PATH`.
+   Assuming `~/bin` is in your `PATH`, you could do this:
+
+   ```bash
+   ln -s /path/to/repo/gcopr.sh ~/bin/gcopr
+   ```
 
 ## Usage
 
